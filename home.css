@@ -1,0 +1,30 @@
+.Container{
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+}
+
+}
+.content{
+  float: right;
+}
+
+  #map{
+    width: 600px;
+    height: 500px;
+  }
+
+.head{
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+  font-size: 50px
+
+}
+
+.menu{
+  float: left;
+  font-size: 20px;
+  font-family: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+
+}
+
+.footer{}

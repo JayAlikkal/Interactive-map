@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="home.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title> Welcome</title>
+
+
+
+
+<div class = "Container">
+  <div class="logo"><img src="Mapicon.png" alt="Mapicon" height="80px" width="80px" ></div>
+  <div class="head">Find your way</div>
+</div>
+
+</head>
+<body>
+
+
+
+<div class="menu">
+      <div>
+  Select campus
+  <input name="color" type="checkbox" value="Main Campus"> main campus
+  <input name="color" type="checkbox" value="HSC"> Health sc camp
+      </div>
+
+      <div>
+        Resident hall
+        <input type="Enter" list="Res halls" placeholder="Select a option">
+        <datalist id="Res halls">
+          <option value="I House">
+          <option value="A House">
+          <option value="parks">
+          </datalist>
+  </div>
+<div class="content">
+
+
+  <div id="map">
+    <script>
+    function initMap(){
+
+      map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 41.6579, lng: -83.6142},
+      zoom: 15
+    });
+    }
+         </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvXjHcjVZBC57ZgCvmEMyC6OKr6CKXdDk&callback=initMap">
+    </script>
+    
+</div>
+</div>
+
+
+
+ </body>
+</html>
